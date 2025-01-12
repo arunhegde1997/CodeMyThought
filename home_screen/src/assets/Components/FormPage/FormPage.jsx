@@ -38,7 +38,9 @@ const FormPage = () => {
   };
 
   const handleSubmit = (e) => {
+    // below line prevents the page from refreshing after clicking submit
     e.preventDefault();
+    
     const validationError = validateForm();
     if (validationError) {
       setError(validationError);
