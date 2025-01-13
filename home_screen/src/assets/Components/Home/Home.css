@@ -1,17 +1,42 @@
 
+
+.body{
+    font-family: Arial, sans-serif;
+            
+}
 .home {
+    /* display:flex; */
     text-align:center;
-    margin-top:none;
-    background-color:orange;
+    justify-content:center;
+    background-color:rgb(145, 193, 212);
+    height:100%;
+    width: 100%;
+    align-items: center;
+    font-family: Arial, sans-serif; 
 }
 
+ .home h1{
+    font-size:250%;
+    font-weight: bold;
+    color:black;
+    
+ }
+
 .home-button-form{
-    background-color:green;
+    background-color:rgb(66, 60, 180);
     margin:10px;
-    padding:20px 40px;
+    padding:20px 50px;
+    font-size:200%; 
+    font-weight: bold;
+    color:black;
+    border-radius: 10%;
 }
 .home-button-api{
-    background-color:blue;
+    background-color:rgb(72, 72, 199);
     margin:10px;
-    padding:20px 40px;  
+    padding:20px 50px; 
+    font-size:200%; 
+    font-weight: bold;
+    color:black;
+    border-radius: 10%;
 }

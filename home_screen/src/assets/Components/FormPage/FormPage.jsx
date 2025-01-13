@@ -52,10 +52,11 @@ const FormPage = () => {
 
   return (
     <div className="display">
-      <h1>Form page</h1>
+      <div className="display-container">
+        <h1>Form page</h1>
       {error && <p style={{ color: "red" }}>{error}</p>}
       <form onSubmit={handleSubmit}>
-        <input
+       <div className="display-container-field"> <input
           type="text"
           name="name"
           placeholder="Name"
@@ -96,7 +97,9 @@ const FormPage = () => {
         />
         <br />
         <button type="submit">Submit</button>
+        </div>
       </form>
+      </div>
     </div>
   );
 };
