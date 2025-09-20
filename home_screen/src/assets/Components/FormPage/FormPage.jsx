@@ -36,7 +36,7 @@ const FormPage = () => {
 
     return "";
   };
-
+  
   const handleSubmit = (e) => {
     // below line prevents the page from refreshing after clicking submit
     e.preventDefault();
@@ -49,7 +49,7 @@ const FormPage = () => {
       navigate("/display", { state: formData });
     }
   };
-
+  
   return (
     <div className="display">
       <div className="display-container">
